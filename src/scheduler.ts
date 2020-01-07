@@ -24,7 +24,7 @@ export default class Scheduler {
     });
   }
 
-  add(task: Task): Worker { 
+  add(task: Task): Worker {
     let worker: Worker = {
       task,
       id: nanoid(4)
@@ -87,6 +87,7 @@ export default class Scheduler {
   }
 }
 
+//#region interfaces
 export interface Worker {
   id: string;
   task: Task;
@@ -111,3 +112,4 @@ export interface Http {
   body?: string;
   headers?: string;
 }
+//#endregion

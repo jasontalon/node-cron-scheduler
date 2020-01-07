@@ -55,7 +55,7 @@ server.get("/", async () => {
   }));
 });
 
-server.get("/status", async (request, response) => {
+server.get("/status", async () => {
   return scheduler.workers;
 });
 
