@@ -1,6 +1,6 @@
 # node-cron-scheduler
 
-A REST API that accepts cron expression schedule, which executes a javascript code or http request based on the parameters givenn.
+A REST API that accepts cron expression schedule, which executes a javascript code or http request based on the parameters given.
 
 Example:
 
